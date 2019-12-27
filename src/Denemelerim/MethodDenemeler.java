@@ -1,9 +1,5 @@
 package Denemelerim;
 
-import day31.MethodPractice;
-
-import java.util.Scanner;
-
 public class MethodDenemeler {
     public static void main(String[] args) {
   message("yasemin","dogan",35);

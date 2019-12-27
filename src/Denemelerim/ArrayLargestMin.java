@@ -1,7 +1,5 @@
 package Denemelerim;
 
-import java.util.Arrays;
-
 public class ArrayLargestMin {
     public static void main(String[] args) {
         int[] scores = {20, 67, 0, -123, -12, 45, 67};

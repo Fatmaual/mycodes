@@ -1,9 +1,5 @@
 package Denemelerim;
 
-import day18.ForLoopIntro;
-
-import java.util.Arrays;
-
 public class ArraysCars {
     public static void main(String[] args) {
         String[] car = {
