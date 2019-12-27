@@ -1,4 +1,4 @@
-package Denemelerim;
+package denemelerim;
 
 public class RetrunWithParameter {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Denemelerim;
+package denemelerim;
 
 public class YasinHocaSunum {
     public static int YasinHoca(int c,int d){

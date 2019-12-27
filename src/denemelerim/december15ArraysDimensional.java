@@ -1,4 +1,4 @@
-package Denemelerim;
+package denemelerim;
 
 public class december15ArraysDimensional {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Denemelerim;
+package denemelerim;
 
 public class Deep2DArrayMuhtar12_15 {
     public static void main(String[] args) {

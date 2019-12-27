@@ -1,4 +1,4 @@
-package Denemelerim;
+package denemelerim;
 public class SundayClass12_22InterviewQ {
     public static void main(String[] args) {
         Words("Kerem");

@@ -1,4 +1,4 @@
-package Denemelerim;
+package denemelerim;
 
 public class NumberGame {
   public static void reportName(String first,String last){

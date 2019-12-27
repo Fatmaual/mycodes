@@ -1,4 +1,4 @@
-package Denemelerim;
+package denemelerim;
 import java.util.Arrays;
 
 public class InterviewQuestion {

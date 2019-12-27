@@ -1,4 +1,4 @@
-package Denemelerim;
+package denemelerim;
 
 public class LeapYearExample {
     public static boolean LeapYear(int year) {

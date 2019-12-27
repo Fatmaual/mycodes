@@ -1,4 +1,4 @@
-package Denemelerim;
+package denemelerim;
 
 public class BasicSpellNameWithDsh {
     public static void main(String[] args) {

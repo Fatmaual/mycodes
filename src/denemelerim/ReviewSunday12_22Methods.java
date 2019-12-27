@@ -1,4 +1,4 @@
-package Denemelerim;
+package denemelerim;
 
 public class ReviewSunday12_22Methods {
     public static void main(String[] args) {

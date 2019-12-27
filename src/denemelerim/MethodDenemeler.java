@@ -1,4 +1,4 @@
-package Denemelerim;
+package denemelerim;
 
 public class MethodDenemeler {
     public static void main(String[] args) {
