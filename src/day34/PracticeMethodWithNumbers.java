@@ -1,9 +1,4 @@
 package day34;
-
-import jdk.swing.interop.SwingInterOpUtils;
-
-import java.util.Enumeration;
-
 public class PracticeMethodWithNumbers {
     public static void main(String[] args) {
   //create 3 digit numbers if any digit is not in the range then don't print it out
@@ -19,7 +14,8 @@ public class PracticeMethodWithNumbers {
         System.out.println("result2 = " + result2);
       //System.out.println(result1+result2); ///-->>ERRORRRRRR
         System.out.println(" result 1 and result 2 : "+(result1+result2));
-        System.out.println(result1+result2 +" is; result of --> result 1 and result 2 ");
+        System.out.println(result1+result2 +
+ " is result of --> result 1 and result 2 ama bu sonucu almak icin resultleri basa koymalisin!");
 
     }
     public static int buildDigitNumber(int digit1, int digit2, int digit3) {
