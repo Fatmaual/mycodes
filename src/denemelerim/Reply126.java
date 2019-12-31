@@ -1,6 +1,8 @@
 package denemelerim;
+import jdk.swing.interop.SwingInterOpUtils;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Reply126 {
     public static void main(String[] args) {
@@ -12,31 +14,39 @@ Split values by comma: split(", ");
 input: olive, fish, pursuit, old, warning, python, java, coffee, cat, ray
 output: [cat, old, ray]
         **/
-       String str ="olive,fish,pursuit,old,warning,python,java,coffee,cat,ray";
-       String[]myArray = str.split(",");
-       int shortesWord = myArray[0].length();
+        //I assume user input this String;
+//String str= "Cybertek Batch15 is most hardworking one EVER!";
+//String[] strsplit= str.split(" ");
+        //     System.out.println(Arrays.toString(strsplit));
+        //      int [] num=new int[5];
+        //    for (int x = 1; x <num.length ; x++) {
+        //   num[x]+=x;
+        // }
+        //System.out.print(Arrays.toString(num));
+        /**Create a method called plus_minus that gets an array of ints (int[]),
+         * it outputs how many negative , positive and zero numbers are in the array.
+         for example:
+         plus_minus (new int[]{1,2,55,-9,-2,0});
+         will output:
+         positives:3, negatives:2, zeros:1
+         * */
 
-       String collectionOfWords="";
+        Scanner input = new Scanner(System.in);
+  String[] words = {input.nextLine(),input.nextLine(),input.nextLine(),
+          input.nextLine(),input.nextLine()};
 
-        for(String spliteWord:myArray){
-            if(spliteWord.length()<shortesWord){
-                shortesWord=spliteWord.length();
+        // leave above code alone :)
+        // assume you have String array of 5 items
+        //and print firt and last char of each items in one line
 
-            }
+        //TODO: Write your code below
+        for (int i = 0; i < words.length ; i++) {
+            System.out.println(words[i].charAt(0)+""+words[i].charAt(words.length-1));
+
         }
-        for (int i = 0; i <myArray.length ; i++) {
-            if(myArray[i].length()==shortesWord){
-                collectionOfWords+=(myArray[i]+",");
 
-            }
+
         }
-       String[] shortArray=collectionOfWords.split(",");
-        Arrays.sort(shortArray);
-        System.out.println(Arrays.toString(shortArray));
-
-       }
-            }
-
-
+    }
 
 

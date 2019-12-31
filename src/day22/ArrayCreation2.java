@@ -11,12 +11,13 @@ public class ArrayCreation2 {
         int itemCount = ages.length;
         System.out.println("itemCount = " + itemCount);
         for (int x = 0; x <itemCount ; x++) {
-            System.out.println(ages[x]);
+            System.out.print(ages[x]+" ");
         }
         int[] areaCode = {703,300,954,665}; //bu formul ancak busekil calisir baska yolla olmaz int[] areacode
                                           // alt line gecip devam edemzsin hepsi bir sirada olmasi lazim
         for (int x = 0; x <areaCode.length ; x++) {
             System.out.println(areaCode[x]+ " ");
+
 
         }
 
