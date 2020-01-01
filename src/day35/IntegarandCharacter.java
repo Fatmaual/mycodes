@@ -1,6 +1,6 @@
 package day35;
 
-public class GetSum {
+public class IntegarandCharacter {
     public static void main(String[] args) {
         /**
          * get the number out and store them into Integer variable num
@@ -24,5 +24,6 @@ for(char each: allChars){
    }
 }
         System.out.println("sum is : "+sum);
+
     }
 }
