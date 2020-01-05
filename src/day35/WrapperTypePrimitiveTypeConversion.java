@@ -22,11 +22,6 @@ public class WrapperTypePrimitiveTypeConversion {
         //int year;
         //String strYear =caseNumber.substring(3,7);
         //year= Integer.parseInt(strYear);
-    /**
-     * task2
-     * */
-
-
        return Integer.parseInt(caseNumber.substring(3,7));
     }
 }

@@ -6,25 +6,24 @@ public class ParsingPractice {
         //get the price out
         //get the total price
         String sentence= "I bought 3 tomato and the price was 3,14 each";
-   //     double priceFind= Double.valueOf("3.14");
-     //   System.out.println(priceFind);
-       // System.out.println(GetThePrice(3.14));
-    //}
-    //public static double GetThePrice(double price1){
-      //  return price1*3;
-   //     String[]words=sentence.split(" ");
-    // int count=Integer.parseInt(words[2]);
-      //  System.out.println("tomatos are : "+count);
-    //String  findOfTomato =words[words.length-2];
-    //findOfTomato=findOfTomato.replace(",",".");
-    //double priceOfTomato=Double.parseDouble(findOfTomato);
-      //  System.out.println("total price is : "+count*priceOfTomato);
         String[] allWords =sentence.split(" ");
-        int tomatoCount =Integer.parseInt(allWords[2]);
-        System.out.println("I have "+tomatoCount+" tomatoes.");
-        String duzelt=sentence.replace(",",".");
-        double priceOfTomatoes =Double.parseDouble("3.14");
-        System.out.println("total price of tomatoes: "+ tomatoCount*priceOfTomatoes);
+      int count=Integer.parseInt(allWords[2]);
+      String pricewithString=allWords[allWords.length-2];
+        pricewithString=pricewithString.replace(",",".");
+        double price=Double.parseDouble(pricewithString);
+        System.out.println("total price is  " + (count*price));
+
+        // Use this number IPR2012-00001 and store the year into a int variable
+// This case number always start with 3 character either IPR , PGR , CBM , DER
+// followed by year , followed by dash and 5 digit number
+        String caseNumber = "IPR2012-00001" ;
+        // int year ; //-- get 2012 out of it
+        int year=Integer.parseInt(caseNumber.substring(3,7));
+        System.out.println("year is : "+year);
+        int  number =Integer.parseInt(caseNumber.substring(8));
+        System.out.println(number);
+        float f6=Float.parseFloat("3.14f");
+        System.out.println(f6);
 
     }
 }
