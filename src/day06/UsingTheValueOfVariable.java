@@ -1,5 +1,7 @@
 package day06;
 
+import java.util.Scanner;
+
 public class UsingTheValueOfVariable {
     public static void main(String[] args) {
 
@@ -28,8 +30,20 @@ public class UsingTheValueOfVariable {
         System.out.println("my order is " + myOrder);
         System.out.println("your order is " + yourOrder);
         System.out.print("my order is " + yourOrder);
+        System.out.println("==============================");
 
+        // Create a variable called yourOrder , type String
+        // and assign a value
+        // Create another variable called myOrder and assign the value
+        // to same value as yourOrder by copying
+        // and just print them out.
+        Scanner input = new Scanner(System.in);
+        System.out.println("WHAT IS YOUR ORDER ? I WANT THE SAME!");
+        String yourOrder1 = input.nextLine();
+        String myOrder1 = yourOrder;
 
+        System.out.println("Your order is " + yourOrder1 + "\n" +
+                "My order is " + myOrder1);
 
 
 

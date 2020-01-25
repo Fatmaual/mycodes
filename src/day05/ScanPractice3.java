@@ -17,7 +17,15 @@ public class ScanPractice3 {
         boolean comingHere = input.nextBoolean();
         System.out.println();
 
+        // asking user are you recording
+        System.out.println(" are you recording ? ");
+        boolean isRecording = input.nextBoolean();
+
+        // The result of concatenating a string to any data type -->> String
+        System.out.println("We are recording  " + isRecording);
 
 
     }
+
 }
+

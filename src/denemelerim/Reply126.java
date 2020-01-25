@@ -1,6 +1,7 @@
 package denemelerim;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Reply126 {
     public static void main(String[] args) {
@@ -29,7 +30,9 @@ public static int[][] twoDArray(int row, int col) {
 
     }
     return arr2D;
+
+
+    }
 }
 
 
-}
