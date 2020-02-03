@@ -24,5 +24,13 @@ public class CharAndLoop {
         System.out.println("pick your first character by charAt()");
         String charAt = scan.nextLine();
         int firstCha = scan.nextInt();
+        String name="Fatma";
+        int cnt=0;
+        for (int x = 0; x <name.length() ; x++) {
+
+
+        }
+
     }
+
 }
